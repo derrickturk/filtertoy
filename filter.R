@@ -1,3 +1,7 @@
+# filtertoy
+# a thing for filtering time series
+# (c) 2016 dwt | terminus data science, LLC
+
 # relative-residual vs moving window smoothing point filter
 filter <- function (ts, window.fn, window.width, threshold.fn, threshold.scalar)
 {
